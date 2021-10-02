@@ -9,6 +9,7 @@ A bug tracking web app.
 * CSS
 * HTML
 * mySQL
+* nodeJS
 
 #### Features: #####
 * User login
