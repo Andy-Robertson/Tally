@@ -6,7 +6,7 @@ import Footer from "./Footer.js";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Header />
       <Main />
       <Footer />
