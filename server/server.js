@@ -2,7 +2,7 @@ const PORT = process.env.PORT || 4001;
 const express = require("express");
 const cors = require("cors");
 
-const bugData = require("./bugData.json");
+const bugs = require("./bugData.json");
 
 const app = express();
 
@@ -14,8 +14,12 @@ app.get("/", (req, res) => {
   res.status(200).send("Welcome to Tally's server");
 });
 
-app.get("/tally/bugs", (req, res) => {
-  res.status(200).json(bugData);
+app.get("/bugs", (req, res) => {
+  res.status(200).json(bugs);
+});
+
+app.get("/bugs/:program", (req, res) => {
+  res.status(200).json(bugs[req.params.program]);
 });
 
 app.listen(PORT, () => {

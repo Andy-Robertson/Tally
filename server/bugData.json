@@ -1,24 +1,50 @@
-[
-  {
-    "id": "0",
-    "name": "wont load",
-    "details": "The thing wont load!!!!",
-    "steps": "click load",
-    "version": "V0.1a",
-    "assigned": "AndyR",
-    "creator": "AndyR",
-    "priority": "High",
-    "added": "2021-11-10"
-  },
-  {
-    "id": "2",
-    "name": "app background wrong colour",
-    "details": "accessibility limited due to colour",
-    "steps": "Load main app",
-    "version": "V0.1a",
-    "assigned": "James",
-    "creator": "AndyR",
-    "priority": "Medium",
-    "added": "2021-12-10"
-  }
-]
+{
+  "tally": [
+    {
+      "id": "0",
+      "name": "wont load",
+      "details": "The thing wont load!!!!",
+      "steps": "click load",
+      "version": "V0.1a",
+      "assigned": "AndyR",
+      "creator": "AndyR",
+      "priority": "High",
+      "added": "2021-11-10"
+    },
+    {
+      "id": "2",
+      "name": "app background wrong colour",
+      "details": "accessibility limited due to colour",
+      "steps": "Load main app",
+      "version": "V0.1a",
+      "assigned": "James",
+      "creator": "AndyR",
+      "priority": "Medium",
+      "added": "2021-12-10"
+    }
+  ],
+  "blogsBy": [
+    {
+      "id": "0",
+      "name": "text not aligned",
+      "details": "text on the right wont load",
+      "steps": "view page",
+      "version": "V0.1a",
+      "assigned": "AndyR",
+      "creator": "AndyR",
+      "priority": "High",
+      "added": "2021-11-10"
+    },
+    {
+      "id": "2",
+      "name": "app background wrong colour",
+      "details": "accessibility limited due to colour",
+      "steps": "Load main app",
+      "version": "V0.1a",
+      "assigned": "James",
+      "creator": "AndyR",
+      "priority": "Medium",
+      "added": "2021-12-10"
+    }
+  ]
+}

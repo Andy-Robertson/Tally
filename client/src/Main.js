@@ -3,8 +3,10 @@ import React, { useEffect, useState } from "react";
 const Main = () => {
   const [bugs, setBugs] = useState([]);
 
+  let trackedApp = "blogsBy";
+
   useEffect(() => {
-    fetch("/tally/bugs")
+    fetch(`/bugs/${trackedApp}`)
       .then((res) => {
         return res.json();
       })
@@ -16,7 +18,13 @@ const Main = () => {
 
   return (
     <ul>
-      {bugs.map((bug) => (<li key={bug.id}>{bug.name}</li>))}
+      {bugs.map((bug, index) => (
+        <div>
+          {console.log(bug.id)}
+
+          <li key={bug.id}>{bug.name}</li>
+        </div>
+      ))}
     </ul>
   );
 };
