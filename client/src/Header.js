@@ -1,7 +1,7 @@
-import React from "react";
+import * as React from "react";
 
 const Header = () => {
-  return <header className="App-header"> Im the header! </header>; 
+  return <header className="header"> Tally Bug Tracker</header>;
 };
 
 export default Header;
