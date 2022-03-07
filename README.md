@@ -4,11 +4,11 @@ A bug tracking web app.
 
 #### Technologies: ####
 
-* Grid
-* JS
+* JavaScript
 * CSS
 * HTML
-* mySQL
+* React
+* postgreSQL
 * nodeJS
 
 #### Desired Features: #####
