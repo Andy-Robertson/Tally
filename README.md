@@ -11,6 +11,6 @@ A bug tracking web app.
 * mySQL
 * nodeJS
 
-#### Features: #####
+#### Desired Features: #####
 * User login
 * Multi project tracking
