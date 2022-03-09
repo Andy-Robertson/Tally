@@ -12,5 +12,7 @@ A bug tracking web app.
 * nodeJS
 
 #### Desired Features: #####
-* User login
+* User login - traditional salted passwords
+* User login - github
 * Multi project tracking
+* Analytics
