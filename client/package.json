@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "Tally front end",
   "private": true,
-  "proxy": "http://localhost:4001",
   "dependencies": {
     "@emotion/react": "^11.6.0",
     "@emotion/styled": "^11.6.0",
@@ -39,5 +38,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "http://localhost:5000"
 }

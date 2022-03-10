@@ -1,0 +1,25 @@
+{
+  "name": "tally",
+  "version": "1.0.0",
+  "description": "A bug tracking web app.",
+  "main": "index.js",
+  "engines": {
+    "node": "14.19.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd server && npm install && npm start",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andy-Robertson/Tally.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andy-Robertson/Tally/issues"
+  },
+  "homepage": "https://github.com/Andy-Robertson/Tally#readme"
+}
