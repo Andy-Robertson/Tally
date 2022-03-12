@@ -3,6 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const path = require("path");
 
+require("./Data/pGConfig");
 const bugs = require("./bugData.json");
 
 const app = express();
