@@ -1,7 +1,7 @@
 require("dotenv").config();
-const { pool } = require("pg");
+const { Pool } = require("pg");
 
-const pool = new pool({
+const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
   ssl: {
     rejectUnauthorized: false,

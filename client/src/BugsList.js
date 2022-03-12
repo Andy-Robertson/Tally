@@ -6,7 +6,7 @@ const BugsList = () => {
   let trackedApp = "blogsBy";
 
   useEffect(() => {
-    fetch(`/bugs/${trackedApp}`)
+    fetch(`/api/bugs/${trackedApp}`)
       .then((res) => {
         return res.json();
       })

@@ -1,7 +1,12 @@
 import React from "react";
+import BugsList from "./BugsList";
 
 const Main = () => {
-  return <section>Options</section>;
+  return (
+    <section>
+      <BugsList />
+    </section>
+  );
 };
 
 export default Main;
