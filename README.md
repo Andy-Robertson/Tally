@@ -11,7 +11,7 @@ A bug tracking web app.
 * postgreSQL
 * nodeJS
 
-#### Desired Features: #####
+#### Planned Features: #####
 * User login - traditional salted passwords
 * User login - github
 * Multi project tracking
